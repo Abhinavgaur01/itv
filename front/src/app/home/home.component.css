@@ -1,0 +1,43 @@
+#wrapper{
+	position: absolute;
+	background: url(../../assets/imgs/HOME.jpg);
+	min-width: 100%;
+	min-height: 100%
+}
+.centerDiv{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+	color: white;
+	
+}
+.centerDiv h1 {
+	font-family: Helvetica Neue;
+	font-weight: thinner;
+}
+.centerDiv p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+.centerDiv hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 3px solid #ff0000;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+.centerDiv a {
+	position: absolute;
+    left: 50%;
+     transform: translateX(-50%);
+}
+.nav-item a{
+	color:white;
+	transition:all 0.5s;
+}
+.nav-item a:hover{
+	color:red;
+}
