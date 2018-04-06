@@ -1,0 +1,17 @@
+.wrapper{
+	position: absolute;
+	background: #1A1A1A;
+	min-width: 100%;
+	min-height: 100%
+}
+.nav-item a{
+	color:white;
+	transition:all 0.5s;
+}
+.nav-item a:hover{
+	color:red;
+}
+
+.nav-item .active{
+	color:red;
+}

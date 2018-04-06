@@ -1,0 +1,32 @@
+<div class="wrapper">
+	<nav class="navbar navbar-expand-lg navbar-dark">
+		<a class="navbar-brand" href="#"><img src="../../assets/imgs/logo.png"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav mr-auto">
+			  <li class="nav-item">
+			    <a class="nav-link" [routerLink]="['/signup']">TV</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" [routerLink]="['/login']">MOVIES</a>
+			  </li>
+			</ul>
+		</div>
+	</nav>
+
+
+	<div class="container-fluid">
+		<h1 class="text-light mt-3">Populer</h1>
+	  <div class="row">
+	  	<div class="col-md-2 col-sm-6 mt-3" *ngFor="let item of TV; let i = index" >
+	  	
+	  		<img src="{{item.Poster}}" alt="{{item.Title}}" width="100%">
+	  		
+
+	  </div>
+	  	</div>
+	</div>
+</div>
+
